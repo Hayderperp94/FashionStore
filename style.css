@@ -88,3 +88,132 @@ footer{
     text-align: center;
     
 }
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+    #navbar-title {
+        font-size: 20px;
+    }
+
+    .Item-tag {
+        font-size: 13px;
+    }
+
+    .Information {
+        font-size: 10px;
+        margin: 15px;
+    }
+
+    footer {
+        font-size: 13px;
+        padding-top: 18px;
+        height: auto;
+    }
+}
+
+/* === Responsive Design Using Media Queries === */
+
+@media screen and (max-width: 768px) {
+    header {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    #navbar-title {
+        font-size: 20px;
+    }
+
+    .Item-img {
+        width: 50px;
+        height: auto;
+    }
+
+    .Items table,
+    .Items tbody,
+    .Items tr {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Items td {
+        width: 30%;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .Item-tag {
+        font-size: 12px;
+    }
+
+    #shopping-time-img {
+        width: 95%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .Sales-table {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .Sales-table th,
+    .Sales-table td {
+        padding: 8px;
+    }
+
+    .Information {
+        padding: 10px;
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .Information h1 {
+        font-size: 18px;
+    }
+
+    .Information h2 {
+        font-size: 16px;
+    }
+
+    footer {
+        font-size: 13px;
+        padding-top: 15px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Items td {
+        width: 45%;
+    }
+
+    #navbar-title {
+        font-size: 18px;
+    }
+
+    .Item-tag {
+        font-size: 11px;
+    }
+
+    .Sales-table {
+        font-size: 11px;
+    }
+
+    .Information {
+        font-size: 11px;
+    }
+
+    .Information h1 {
+        font-size: 16px;
+    }
+
+    .Information h2 {
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 12px;
+        padding: 10px 0;
+    }
+}
